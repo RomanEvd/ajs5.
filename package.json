@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "babel-jest": "^29.2.2",
+    "eslint": "^8.26.0",
+    "jest": "^29.2.2"
+  },
+  "dependencies": {
+    "core-js": "^3.26.0"
+  },
+  "name": "ajs5.1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "check": "jest",
+    "lint": "eslint .",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
